@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 
 def hello(request):
-	return HttpResponse("hello world")
+	return HttpResponse("<h1>hello world</h1>")
 # Create your views here.
