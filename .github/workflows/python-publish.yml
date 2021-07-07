@@ -26,6 +26,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with unit test
       run: |
+        cd cicdtest
         python manage.py test
         
   deploy_job:
